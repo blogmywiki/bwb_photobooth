@@ -51,6 +51,7 @@ We all learned a lot: for example we found that `button.wait_for_press()` will o
 * Put it in a box.
 * PiZero version mounted on a huge selfie-stick.
 * Coin-operated for fund-raising.
+* Take a sequence of photos and post an animated GIF.
 
 ## Credits
 
