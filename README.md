@@ -33,7 +33,9 @@ I want to write up a lesson plan for this - it could go like this:
 * Add a button to trigger taking photo.
 * Add a button to cycle through filters.
 * Add text and timestamp.
-* Add Tweeting, if appropriate to age gorup and setting.
+* Add Tweeting, if appropriate to age group and setting.
+
+## Our own learning
 We all learned a lot: for example we found that `button.wait_for_press()` will only poll the button once and not do anything else, where as `effect.when_pressed = change_filter` will keep polling the other button in the background and call the change_filter function any time it is pressed. Thanks to Ben Nuttall for his help with this!
 
 ## The Future
