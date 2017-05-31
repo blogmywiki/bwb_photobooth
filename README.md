@@ -7,7 +7,7 @@ This is a project created by 3 Picademy attendees at the Museum of London on 30t
 * A Raspberry Pi. We used a model 3 but I think any would work.
 * The official PiCamera module.
 * Two push buttons.
-* A breadoard.
+* A breadboard.
 * Some male-female and male-male jumper wires.
 * Internet access.
 * A Twitter account with mobile phone authentication enabled.
