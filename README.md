@@ -46,3 +46,5 @@ I want to write up a lesson plan for this - it could go like this:
 ## Credits
 
 A collaborative project by Andrew Brixey, Andrew Wright and Giles Booth (hence bwb!). Huge thanks to Ben Nuttall, the creator of GPIO Zero for putting us on the right path when we got stuck with polling buttons.
+
+!(https://github.com/blogmywiki/bwb_photobooth/raw/master/sample_photo.jpg)
