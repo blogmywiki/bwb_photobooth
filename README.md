@@ -20,7 +20,7 @@ We followed the excellent instructions on the Raspberry Pi education web site: [
 You need to end up with a file called auth.py in the same directory as the photobooth script; it will contain your 4 secret keys which you will have gathered from the process of creating a new app on the Twitter web site.
 
 ## Setting up the hardware
-You need two fleeting push buttons: the one to take photos is connected to GPIO 17 and the one ot cycle through the filters is connected to GPIO 10. Connect the other side of both switches to GND on the Pi.
+You need two fleeting push buttons: the one to take photos is connected to GPIO 17 and the one to cycle through the filters is connected to GPIO 10. Connect the other side of both switches to GND on the Pi.
 
 ## Using it
 Run bwb_photobooth.py - you should see a preview of your photo on screen. We made it translucent so we could control things behind it - you can make it more opaque by increasing the value in this line closer to 255:
