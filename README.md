@@ -1,7 +1,7 @@
 # bwb_photobooth
 A very simple tweeting Raspberry Pi Photo Booth for a school disco or fair.
 
-This is a project created by 3 Picademy attendees at the Museum of London on 30th May 2017 in a couple of hours. The idea was to make the simplest possible photo booth that can be taught and built by pupils. We know we were reinventing the wheel somewhat - other photo booths are available - but we wanted to make the simplest one we could with the PiCamera's built-in filters and no GUI. We decided to make the photos square to look more like a certain modern social media imaging service.
+This is a project created by 3 Picademy attendees at the Museum of London on 30th May 2017 in a couple of hours. The idea was to make the simplest possible photo booth that can be taught and built by pupils. We know we were reinventing the wheel somewhat - other photo booths are available - but we wanted to make the simplest one we could with the PiCamera's built-in filters and no GUI. We used the GPIO Zero library which makes using buttons on the Raspberry Pi _much_ simpler than other methods. We also decided to make the photos square to look more like a certain modern social media imaging service.
 
 ## You will need:
 * A Raspberry Pi. We used a model 3 but I think any would work.
@@ -42,6 +42,7 @@ I want to write up a lesson plan for this - it could go like this:
 We all learned a lot: for example we found that `button.wait_for_press()` will only poll the button once and not do anything else, where as `effect.when_pressed = change_filter` will keep polling the other button in the background and call the change_filter function any time it is pressed. Thanks to Ben Nuttall for his help with this!
 
 ## The Future
+* Those imports look messy - can you help us tidy them up?
 * Make it run continuously and improve user experience.
 * Add a thermal printer to print the photo in black and white.
 * Instead of tweeting, upload the photo by FTP to a secure URL - important when children's photos cannot be put on social media for safeguarding reasons.
